@@ -2,7 +2,7 @@
 
 ## Parte 1
 
-Abre el proyecto *EjercicioXML* en Netbeans y buscar la forma de reparar el fichero XML de la ventana Principal (VentanaPrincipal.form)
+Abre el proyecto *EjercicioXML* en Netbeans incluido en el repositorio y busca la forma de reparar el fichero XML de la ventana Principal (VentanaPrincipal.form)
 
 ## Parte 2
 
