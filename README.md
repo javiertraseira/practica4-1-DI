@@ -11,48 +11,59 @@ A partir del documento **XML** facilitado a continuación, se pide crear dos arc
 
 ```
 <?xml version="1.0" encoding="utf-8"?> 
-<menu_desayuno> 
+<?xml-stylesheet type = "text/xsl" href = "desayuno.xsl"?>
+
+<menu_desayuno>
  <desayuno> 
- <nom>Aida</nom>
- <precio>6,00 €</precio> 
- <descripcion> desayuno americano 
-   <alimentos> 
-     <alimento> huevos </alimento> 
+  <pedido>Luis</pedido>
+  <precio>6,50 €</precio> 
+  <descripcion nombre='desayuno americano' > 
+    <alimentos> 
+     <alimento> tostadas </alimento> 
      <cantidad> 2 </cantidad> 
-   </alimentos>
-   <alimentos>
-     <alimento> bacon </alimento> 
-     <cantidad> 3 </cantidad> 
-   </alimentos> 
-   <alimentos> 
-     <alimento> patatas </alimento> 
-     <cantidad> 20 </cantidad>
+    </alimentos>
+    <alimentos>
+     <alimento> café largo </alimento> 
+     <cantidad> 1 </cantidad> 
     </alimentos> 
-  </descripcion> 
-  <calorias>1200</calorias> 
+    <alimentos>
+     <alimento> mermelada </alimento> 
+     <cantidad> 1 </cantidad> 
+    </alimentos> 
+    <alimentos>
+     <alimento> mantequilla </alimento> 
+     <cantidad> 1 </cantidad> 
+    </alimentos>	
+	<alimentos>
+     <alimento> huevos revueltos </alimento> 
+     <cantidad> 1 </cantidad> 
+    </alimentos>
+   </descripcion>
+   <calorías>1000</calorías> 
  </desayuno> 
- <desayuno> 
- <nombre>Abril</nombre> 
- <precio>$4.95</precio> 
- <descripcion> Macedonia de fruta 
-  <alimentos> 
-   <alimento> manzana </alimento>
-   <cantidad> 1 </cantidad> 
-  </alimentos> 
-  <alimentos> 
-   <alimento> naranja </alimento> 
-   <cantidad> 1 </cantidad> 
-  </alimentos> 
-  <alimentos> 
-   <alimento> plátano </alimento> 
-   <cantidad> 1 </cantidad> 
-  </alimentos> 
-  <alimentos> 
-   <alimento> pera </alimento> 
-  <cantidad> 1 </cantidad> 
-  </alimentos> 
-  </descripcion> <calorias>600</calorias>
- </desayuno> 
+ <desayuno>
+   <pedido>Victor</pedido>
+   <precio>6,00 €</precio>   
+   <descripcion nombre='desayuno Francés'>
+    <alimentos> 
+     <alimento> croissant </alimento> 
+     <cantidad> 2 </cantidad> 
+    </alimentos>
+    <alimentos> 
+     <alimento> café </alimento> 
+     <cantidad> 1 </cantidad> 
+    </alimentos>	
+    <alimentos> 
+     <alimento> miel </alimento> 
+     <cantidad> 2 </cantidad> 
+    </alimentos>
+    <alimentos>
+     <alimento> baguette </alimento> 
+     <cantidad> 1 </cantidad> 
+    </alimentos> 
+   </descripcion>
+   <calorías>800</calorías> 
+ </desayuno>
 </menu_desayuno>
 
 ```
