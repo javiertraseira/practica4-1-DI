@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<?xml-stylesheet type = "text/xsl" href = "desayuno.xsl"?>
+
+<menu_desayuno> 
+ <desayuno> 
+ <pedido>Aida</pedido>
+ <precio>6,00€</precio> 
+ <descripcion nombre='desayuno continental'>
+    <alimentos> 
+     <alimento> huevos </alimento> 
+     <cantidad> 2 </cantidad> 
+    </alimentos>
+    <alimentos>
+     <alimento> café </alimento> 
+     <cantidad> 3 </cantidad> 
+    </alimentos> 
+    <alimentos>
+     <alimento> bacon </alimento> 
+     <cantidad> 3 </cantidad> 
+    </alimentos> 
+    <alimentos> 
+     <alimento> patatas </alimento> 
+     <cantidad> 20 </cantidad>
+    </alimentos> 
+  </descripcion> 
+  <calorías>1200</calorías> 
+ </desayuno> 
+ <desayuno> 
+ <pedido>Javier</pedido> 
+ <precio>4.95€</precio> 
+ <descripcion nombre='Macedonia de fruta' >
+  <alimentos> 
+   <alimento> manzana </alimento>
+   <cantidad> 1 </cantidad> 
+  </alimentos> 
+  <alimentos> 
+   <alimento> naranja </alimento> 
+   <cantidad> 1 </cantidad> 
+  </alimentos> 
+  <alimentos> 
+   <alimento> plátano </alimento> 
+   <cantidad> 1 </cantidad> 
+  </alimentos> 
+  <alimentos> 
+   <alimento> pera </alimento> 
+  <cantidad> 1 </cantidad> 
+  </alimentos> 
+  </descripcion> 
+  <calorías>600</calorías>
+ </desayuno> 
+</menu_desayuno>
