@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Ejercicio 3.2 Introducción de selectores</title>
+<title>Ejercicio 4.2 Introducción de selectores</title>
 
 <style type="text/css">
-/* Todos los elementos de la página */
+* 
 { font: 1em/1.3 Arial, Helvetica, sans-serif; }
 
-/* Todos los elementos h1 de la página */
+h1
 { font-weight: bold; font-size: 22px; color: #DD1E64; }
 
 /* Todos los parrafos de la página */
@@ -29,8 +29,8 @@
 /* Los elementos "em" contenidos en #primero */
 { background: #FFFFCC; padding: .1em; }
 
-/* El elemento con el id listado dentro de una lista*/
-{ width: 60%; margin: auto;	background-color: #DD1E64; }
+ul#listado
+{ width: 60%; margin: auto;	background-color: #B7DCf6; }
 
 /* Todos los elementos "em" de clase "resaltado" en toda la pagina */
 { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
@@ -61,7 +61,7 @@
 <ul>
  <li> Ulam  </li> 
  <li> Maos porttitor </li> 
-   <ul>
+   <ul id="listado">
       <li>1. Unus </li>
       <li>2. Duo</li>
 	  <li>3. Tres</li>
